@@ -1,0 +1,14 @@
+{
+  "name": "agentshield-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AgentShield backend action firewall",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

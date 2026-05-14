@@ -1,0 +1,31 @@
+[
+  {
+    "code": "BLOCK_CREDENTIAL_ACCESS",
+    "description": "Block attempts to access API keys, secrets, tokens, passwords, or .env."
+  },
+  {
+    "code": "BLOCK_PROMPT_INJECTION",
+    "description": "Block prompt injection, system prompt disclosure, or hidden instruction override attempts.",
+    "action": "DENY"
+  },
+  {
+    "code": "HR_SALARY_EXPORT_DENIED",
+    "description": "HR salary export to external channels is denied."
+  },
+  {
+    "code": "BLOCK_EXTERNAL_PII_SHARING",
+    "description": "External sharing of employee PII is denied."
+  },
+  {
+    "code": "FINANCE_HIGH_VALUE_REVIEW",
+    "description": "Finance invoice/refund above 50000 requires human review."
+  },
+  {
+    "code": "SALES_CUSTOMER_EXPORT_DENIED",
+    "description": "Sales customer data export to external channels is denied."
+  },
+  {
+    "code": "SAFE_INTERNAL_SUMMARY_ALLOWED",
+    "description": "Safe internal summaries are allowed."
+  }
+]
